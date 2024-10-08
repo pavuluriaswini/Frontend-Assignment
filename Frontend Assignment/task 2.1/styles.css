@@ -1,0 +1,81 @@
+/* General page styling */
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1.header {
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for form labels */
+.field-label {
+    color: #B0B0B0;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input field styling */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
+
+/* File upload and select inputs */
+select.input-field, input[type="file"].input-field {
+    color: #E0E0E0;
+    background-color: #2E2E2E;
+}
+
+/* Text area styling */
+textarea.input-field {
+    height: 100px;
+}
+
+/* Submit button styling */
+.submit-btn {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+.submit-btn:hover {
+    background-color: #444444;
+}
+
+/* Styling for checkbox */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style for conditional employer fields */
+#employmentDetails {
+    margin-top: 20px;
+}
+
+/* Additional styling for form container */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1C1C1C;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
